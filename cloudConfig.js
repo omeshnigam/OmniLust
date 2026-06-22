@@ -10,7 +10,7 @@ cloudinary.config({
 const storage = new CloudinaryStorage({
     cloudinary: cloudinary,
     params: {
-      folder: 'omnilust_DEV',
+      folder: process.env.FOLDER,
       allowedFormats:["png","jpg","jpeg","jfif","svg","avif"]
     },
   });
