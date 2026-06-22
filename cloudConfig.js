@@ -11,7 +11,7 @@ const storage = new CloudinaryStorage({
     cloudinary: cloudinary,
     params: {
       folder: process.env.FOLDER,
-      allowedFormats:["png","jpg","jpeg","jfif","svg","avif"]
+      allowedFormats:["png","jpg","jpeg","jfif","svg","avif","webp"]
     },
   });
 
