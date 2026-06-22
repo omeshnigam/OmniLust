@@ -56,3 +56,20 @@ Optimized database access patterns using Mongoose's relational parsing capabilit
 const listing = await Listing.findById(id)
     .populate({ path: "reviews", populate: { path: "author" } })
     .populate("owner");
+### 3. REST Emulation over Legacy Forms
+Overcame standard HTML `<form>` constraints (`GET`/`POST` limit) by leveraging `method-override` to smoothly catch `_method=PUT` or `_method=DELETE` queries, preventing route duplication in controllers.
+
+---
+
+## 📈 Dev Footprint & Quality Standards
+
+* **100% Handcoded:** No AI assistants, template builders, or automated code completion tools were utilized. Every line of logic represents deliberate engineering decisions and genuine problem-solving.
+* **Realistic Seeding Automation:** Engineered dedicated seeding scripts built around `faker` to programmatically load rich datasets, ensuring UI layouts, responsive breakpoints, and query speeds hold up to high asset densities.
+* **Defensive Web Security:** Safeguarded the pipeline against unauthorized cross-site data injections by isolating form structures, deploying schema validations via Joi, and utilizing strict session authorization tokens.
+
+---
+
+### 💼 HR & Recruiting Summary
+This platform demonstrates a comprehensive grip on real-world system design. I am deeply comfortable constructing model schemas, scaling stateful route middleware, managing database lookups, securing application states, and integrating cloud engines. I am ready to step onto an engineering floor on Day 1 and commit production-grade code to your pipeline.
+
+*Feel free to explore the repository or contact me directly for a detailed technical walkthrough of the architectural source code!*
