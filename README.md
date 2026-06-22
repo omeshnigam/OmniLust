@@ -56,6 +56,8 @@ Optimized database access patterns using Mongoose's relational parsing capabilit
 const listing = await Listing.findById(id)
     .populate({ path: "reviews", populate: { path: "author" } })
     .populate("owner");
+```
+
 ### 3. REST Emulation over Legacy Forms
 Overcame standard HTML `<form>` constraints (`GET`/`POST` limit) by leveraging `method-override` to smoothly catch `_method=PUT` or `_method=DELETE` queries, preventing route duplication in controllers.
 
