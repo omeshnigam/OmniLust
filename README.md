@@ -76,6 +76,7 @@ This platform demonstrates a comprehensive grip on real-world system design. I a
 
 *Feel free to explore the repository or contact me directly for a detailed technical walkthrough of the architectural source code!*
 
-𝐂𝐨𝐩𝐲𝐫𝐢𝐠𝐡𝐭 (𝐜) 𝟐𝟎𝟐𝟔-𝐩𝐫𝐞𝐬𝐞𝐧𝐭 𝐎𝐦𝐞𝐬𝐡 𝐍𝐢𝐠𝐚𝐦. 𝐀𝐥𝐥 𝐫𝐢𝐠𝐡𝐭𝐬 𝐫𝐞𝐬𝐞𝐫𝐯𝐞𝐝.  
+𝐂𝐨𝐩𝐲𝐫𝐢𝐠𝐡𝐭 (𝐜) 𝟐𝟎𝟐𝟔-𝐏𝐫𝐞𝐬𝐞𝐧𝐭 𝐎𝐦𝐞𝐬𝐡 𝐍𝐢𝐠𝐚𝐦. 𝐀𝐥𝐥 𝐫𝐢𝐠𝐡𝐭𝐬 𝐫𝐞𝐬𝐞𝐫𝐯𝐞𝐝.
+  
 
 
